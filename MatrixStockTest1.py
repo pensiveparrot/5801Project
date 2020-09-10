@@ -14,5 +14,7 @@ import requests_mock
 import numpy
 import time
 
-
-os.system("pause")
+def main():
+    print("A")
+    os.system("pause")
+main()
