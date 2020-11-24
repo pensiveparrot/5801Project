@@ -14,9 +14,10 @@ from datetime import datetime
 START_DATE = '2000-01-01'
 END_DATE = str(datetime.now().strftime('%Y-%m-%d'))
 
-STOCK = 'AMZN'
-STOCK2 = 'GOOGL'
-
+#STOCK = 'AMZN'
+#STOCK2 = 'GOOGL'
+STOCK = input("Enter Stock 1:")
+STOCK2 = input("Enter Stock 2:")
 # makes a basic plot that compares two stocks.
 
 
